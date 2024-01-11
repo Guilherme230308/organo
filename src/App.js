@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Banner from './componentes/Banner/banner';
+import Banner from './componentes/Banner';
+import CampoTexto from './componentes/CampoTexto';
 
 function App() {
   return (
     <div className="App">
-      <Banner/>      
+      <Banner/> 
+      <CampoTexto label="Nome" placeholder="Digite o seu nome"/>
+      <CampoTexto label="Cargo" placeholder="Digite o seu cargo"/>     
+      <CampoTexto label="Imagem" placeholderModificdo="Digite o endereço da imagem"/>          
     </div>
   );
 }

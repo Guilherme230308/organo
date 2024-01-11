@@ -1,6 +1,8 @@
-function Banner() {
+import "./banner.css"
+
+const Banner = () => {
     return (
-        <header>
+        <header className="banner">
             <img src="/imagens/banner.png" alt="Banner principal da aplicação"/>
         </header>
     )
